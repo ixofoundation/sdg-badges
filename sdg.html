@@ -1,0 +1,13 @@
+<html>
+<body>
+	<script>
+		changeSrc = () => {
+			const theVal = document.querySelector('#theText').value;
+			console.log(theVal);
+			document.querySelector('#theImg').src = theVal;
+		}
+	</script>
+	<textarea id="theText"onChange="changeSrc()" style="width: 600px; height: 400px"></textarea>
+	<img id="theImg" src="" style="width: 600px"/>
+</body>	
+</html>
